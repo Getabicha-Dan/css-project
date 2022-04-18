@@ -50,6 +50,7 @@ body{
         justify-content: space-between;
         margin bottom: 20px;
         margin top: 10px; 
+        margin right: 0;
                }
        
                     
@@ -57,9 +58,10 @@ body{
       
         .box11{
                     background-color: rgba(195, 237, 238, 0.911);
-                    line-height: 16px;
-                    color: black;            
-                    width: 33%;
+                    line-height: 1,5em;
+                    color: black;
+                    margin-right: 8px;            
+                   
                     }
         .box11 .form1{
                 text-align: center;
@@ -72,20 +74,21 @@ body{
         .box12{
             background-color: rgb(112, 112, 119);
             color: white;
-            width: 30%;                 
+            margin-right: 8px;
+                           
               }
             .box12 p{
                 padding: 10px;
             }  
         .box13 {
-            width: 35%;
+            
                     
             }
             .box13 img{
                 height: 200px;
-                width: 400px;
-                margin-right: 0%;
-            }
+                width: 350px;
+                              margin-left: 12px; 
+                                      }
     .box2{
         width: 100%;
         display: flex; 
@@ -139,17 +142,22 @@ body{
                         }
     .box3{
         width: 100%;
-        display: inline;
+        display: flex;
+        justify-content: space-between;
                        
         }
-         .box3 h3{
-             background-color: rgb(200, 198, 202);
+         .box31 {
+             background-color: rgb(203, 246, 231);
              text-align: center;
-             width: 45%;
-             padding-top: 20px;
-             padding-bottom: 20px;
-            
-         }
+             width: 58%;
+             font-size: larger;
+             }
+        .box32  {
+            background-color: rgb(151, 170, 168);
+            text-align: center;
+            width: 40%;
+            font-size: large;
+            }
            
     .box4 ul{
        background-color: rgba(98, 99, 100, 0.952);
